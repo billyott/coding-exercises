@@ -25,8 +25,8 @@ function sameFrequency(n, m){
         if (nObj[key] !== mObj[key]) {
             return false;
         }
-        return true;
     }
+    return true;
     
 }
 
