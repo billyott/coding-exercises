@@ -1,5 +1,3 @@
-//********* js anagrams *********
-
 // *****prompt*****
 // Given two string, write a function to determine if the second string
 // is an anagram of the first. This is a word, phrase, or name, formed 
@@ -93,8 +91,6 @@ function validAnagram(str1, str2) {
 
     return true;
 }
-
-
 
 // *****tests*****
 validAnagram('','')
