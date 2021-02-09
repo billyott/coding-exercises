@@ -42,7 +42,8 @@ function solution(A, K) {
     //add last element to front
     //do this K times
     //return new array
-    newArr = [...A]
+    newArr = [...A];
+    if (newArr.length === 0) return [];
     for (i = 1; i <= K; i++) {
         lastElm = newArr[newArr.length-1]
         newArr.pop()
